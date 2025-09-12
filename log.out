@@ -1,0 +1,8 @@
+nohup: ignoring input
+Debugger attached.
+
+> testing123-website@1.0.0 start
+> node index.js
+
+Debugger attached.
+Server listening at http://localhost:3000

@@ -5,20 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Attach to Chrome",
-            "port": 9222,
-            "request": "attach",
-            "type": "chrome",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
             "command": "npm start",
             "name": "Run npm start",
             "request": "launch",
             "type": "node-terminal"
         },
         {
-            "command": "nohup npm start &",
+            "command": "nohup npm start > log.out 2>&1 &",
             "name": "Run npm start but like it doesnt close",
             "request": "launch",
             "type": "node-terminal"

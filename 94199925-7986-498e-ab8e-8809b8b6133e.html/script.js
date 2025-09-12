@@ -1,3 +1,7 @@
+function warn() {
+    alert("If you get the blocked screen, please press 'alt+←' to go back.");
+}
+
 function checkSecurly() {
     fetch("clients2.google.com/service/update2/crx?response=redirect&os=cros&arch=x86-64&os_arch=x86-64&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=unknown&prodversion=121.0.6167.212&acceptformat=crx2,crx3&x=id%3Diheobagjkfklnlikgihanlhcddjoihkg%26uc")
         .then(() => {
